@@ -7,7 +7,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 const UserInfoCard = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [user, setUser] = useState({ name: "", email: "", phone: "" });
-
+// file upload
   // Load user info from sessionStorage on component mount
   useEffect(() => {
     const name = sessionStorage.getItem("userName");
